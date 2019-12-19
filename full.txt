@@ -1,0 +1,354 @@
+Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost. It is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It’s achieving results that were not possible before.
+
+In deep learning, a computer model learns to perform classification tasks directly from images, text, or sound. Deep learning models can achieve state-of-the-art accuracy, sometimes exceeding human-level performance. Models are trained by using a large set of labeled data and neural network architectures that contain many layers. In a word, accuracy. Deep learning achieves recognition accuracy at higher levels than ever before. This helps consumer electronics meet user expectations, and it is crucial for safety-critical applications like driverless cars. Recent advances in deep learning have improved to the point where deep learning outperforms humans in some tasks like classifying objects in images.
+
+While deep learning was first theorized in the 1980s, there are two main reasons it has only recently become useful:
+
+Deep learning requires large amounts of labeled data. For example, driverless car development requires millions of images and thousands of hours of video.
+Deep learning requires substantial computing power. High-performance GPUs have a parallel architecture that is efficient for deep learning. When combined with clusters or cloud computing, this enables development teams to reduce training time for a deep learning network from weeks to hours or less.
+Deep learning applications are used in industries from automated driving to medical devices.
+
+Automated Driving: Automotive researchers are using deep learning to automatically detect objects such as stop signs and traffic lights. In addition, deep learning is used to detect pedestrians, which helps decrease accidents.
+
+Aerospace and Defense: Deep learning is used to identify objects from satellites that locate areas of interest, and identify safe or unsafe zones for troops.
+
+Medical Research: Cancer researchers are using deep learning to automatically detect cancer cells. Teams at UCLA built an advanced microscope that yields a high-dimensional data set used to train a deep learning application to accurately identify cancer cells.
+
+Industrial Automation: Deep learning is helping to improve worker safety around heavy machinery by automatically detecting when people or objects are within an unsafe distance of machines.
+
+Electronics: Deep learning is being used in automated hearing and speech translation. For example, home assistance devices that respond to your voice and know your preferences are powered by deep learning applications.
+Most deep learning methods use neural network architectures, which is why deep learning models are often referred to as deep neural networks.
+
+The term deep usually refers to the number of hidden layers in the neural network. Traditional neural networks only contain 2-3 hidden layers, while deep networks can have as many as 150.
+
+Deep learning models are trained by using large sets of labeled data and neural network architectures that learn features directly from the data without the need for manual feature extraction.
+One of the most popular types of deep neural networks is known as convolutional neural networks (CNN or ConvNet). A CNN convolves learned features with input data, and uses 2D convolutional layers, making this architecture well suited to processing 2D data, such as images.
+
+CNNs eliminate the need for manual feature extraction, so you do not need to identify features used to classify images. The CNN works by extracting features directly from images. The relevant features are not pretrained; they are learned while the network trains on a collection of images. This automated feature extraction makes deep learning models highly accurate for computer vision tasks such as object classification.
+
+CNNs learn to detect different features of an image using tens or hundreds of hidden layers. Every hidden layer increases the complexity of the learned image features. For example, the first hidden layer could learn how to detect edges, and the last learns how to detect more complex shapes specifically catered to the shape of the object we are trying to recognize.
+Deep learning is a specialized form of machine learning. A machine learning workflow starts with relevant features being manually extracted from images. The features are then used to create a model that categorizes the objects in the image. With a deep learning workflow, relevant features are automatically extracted from images. In addition, deep learning performs “end-to-end learning” – where a network is given raw data and a task to perform, such as classification, and it learns how to do this automatically.
+
+Another key difference is deep learning algorithms scale with data, whereas shallow learning converges. Shallow learning refers to machine learning methods that plateau at a certain level of performance when you add more examples and training data to the network.
+
+A key advantage of deep learning networks is that they often continue to improve as the size of your data increases.
+Machine learning offers a variety of techniques and models you can choose based on your application, the size of data you're processing, and the type of problem you want to solve. A successful deep learning application requires a very large amount of data (thousands of images) to train the model, as well as GPUs, or graphics processing units, to rapidly process your data.
+
+When choosing between machine learning and deep learning, consider whether you have a high-performance GPU and lots of labeled data. If you don’t have either of those things, it may make more sense to use machine learning instead of deep learning. Deep learning is generally more complex, so you’ll need at least a few thousand images to get reliable results. Having a high-performance GPU means the model will take less time to analyze all those images
+Most deep learning applications use the transfer learning approach, a process that involves fine-tuning a pretrained model. You start with an existing network, such as AlexNet or GoogLeNet, and feed in new data containing previously unknown classes. After making some tweaks to the network, you can now perform a new task, such as categorizing only dogs or cats instead of 1000 different objects. This also has the advantage of needing much less data (processing thousands of images, rather than millions), so computation time drops to minutes or hours.
+
+Transfer learning requires an interface to the internals of the pre-existing network, so it can be surgically modified and enhanced for the new task. MATLAB® has tools and functions designed to help you do transfer learning.
+
+Deep learning is the term given to machine learning architectures that join many multilayer perceptrons together, so that there isn’t just one hidden layer but many hidden layers. The “deeper” that the deep neural network is, the more sophisticated patterns the network can learn.
+
+The deep layer networks comprised of neurons are sometimes referred to as fully connected networks or fully connected layers, referencing the fact that a given neuron maintains a connection to all the neurons surrounding it. Fully connected networks can be combined with other machine learning functions to create different deep learning architectures.
+Convolutional Neural Networks
+
+Convolutional neural networks, or CNNs, are the neural network architecture commonly used in the creation of computer vision systems. The structure of convolutional neural networks enables them to interpret image data, converting them into numbers that a fully connected network can interpret. A CNN has four major components:
+
+Convolutional layers
+Subsampling/pooling layers
+Activation functions
+Fully connected layers
+The convolutional layers are what takes in the images as inputs into the network, analyzing the images and getting the values of the pixels. Subsampling or pooling is where the image values are converted/reduced to simplify the representation of the images and reduce the sensitivity of the image filters to noise. The activation functions control how the data flows from one layer to the next layer, and the fully connected layers are what analyze the values that represent the image and learn the patterns held in those values.
+Recurrent neural networks, or RNNs, are popular for tasks where the order of the data matters, where the network must learn about a sequence of data. RNNs are commonly applied to problems like natural language processing, as the order of words matters when decoding the meaning of a sentence.  The “recurrent” part of the term Recurrent Neural Network comes from the fact that the output for a given element in a sequence in dependant on the previous computation as well as the current computation. Unlike other forms of deep neural networks, RNNs have “memories”, and the information calculated at the different time steps in the sequence is used to calculate the final values.
+
+There are multiple types of RNNs, including bidirectional RNNs, which take future items in the sequence into account, in addition to the previous items, when calculating an item’s value. Another type of RNN is a Long Short-Term Memory, or LSTM, network. LSTMs are types of RNN that can handle long chains of data. Regular RNNs may fall victim to something called the “exploding gradient problem”. This issue occurs when the chain of input data becomes extremely long, but LSTMs have techniques to combat this problem.
+
+Most of the deep learning architectures mentioned so far are applied to supervised learning problems, rather than unsupervised learning tasks. Autoencoders are able to transform unsupervised data into a supervised format, allowing neural networks to be used on the problem.
+
+Autoencoders are frequently used to detect anomalies in datasets, an example of unsupervised learning as the nature of the anomaly isn’t known. Such examples of anomaly detection include fraud detection for financial institutions. In this context, the purpose of an autoencoder is to determine a baseline of regular patterns in the data and identify anomalies or outliers.
+
+The structure of an autoencoder is often symmetrical, with hidden layers arrayed such that the output of the network resembles the input. The four types of autoencoders that see frequent use are:
+
+Regular/plain autoencoders
+Multilayer encoders
+Convolutional encoders
+Regularized encoders
+Regular/plain autoencoders are just neural nets with a single hidden layer, while multilayer autoencoders are deep networks with more than one hidden layer. Convolutional autoencoders use convolutional layers instead of, or in addition to, fully-connected layers. Regularized autoencoders use a specific kind of loss function that lets the neural network carry out more complex functions, functions other than just copying inputs to outputs.
+
+Generative Adversarial Networks (GANs) are actually multiple deep neural networks instead of just one network. Two deep learning models are trained at the same time, and their outputs are fed to the other network. The networks are in competition with each other, and since they get access to each other’s output data, they both learn from this data and improve. The two networks are essentially playing a game of counterfeit and detection, where the generative model tries to create new instances that will fool the detective model/the discriminator. GANs have become popular in the field of computer vision. Deep learning extends the principles of neural networks to create sophisticated models that can learn complex patterns and generalize those patterns to future datasets. Convolutional neural networks are used to interpret images, while RNNs/LSTMs are used to interpret sequential data. Autoencoders can transform unsupervised learning tasks into supervised learning tasks. Finally, GANs are multiple networks pitted against each other that are especially useful for computer vision tasks.
+
+Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
+
+The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide. The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust actions accordingly.
+
+Some machine learning methods
+Machine learning algorithms are often categorized as supervised or unsupervised.
+
+Supervised machine learning algorithms can apply what has been learned in the past to new data using labeled examples to predict future events. Starting from the analysis of a known training dataset, the learning algorithm produces an inferred function to make predictions about the output values. The system is able to provide targets for any new input after sufficient training. The learning algorithm can also compare its output with the correct, intended output and find errors in order to modify the model accordingly.
+In contrast, unsupervised machine learning algorithms are used when the information used to train is neither classified nor labeled. Unsupervised learning studies how systems can infer a function to describe a hidden structure from unlabeled data. The system doesn’t figure out the right output, but it explores the data and can draw inferences from datasets to describe hidden structures from unlabeled data.
+Semi-supervised machine learning algorithms fall somewhere in between supervised and unsupervised learning, since they use both labeled and unlabeled data for training – typically a small amount of labeled data and a large amount of unlabeled data. The systems that use this method are able to considerably improve learning accuracy. Usually, semi-supervised learning is chosen when the acquired labeled data requires skilled and relevant resources in order to train it / learn from it. Otherwise, acquiringunlabeled data generally doesn’t require additional resources.
+Reinforcement machine learning algorithms is a learning method that interacts with its environment by producing actions and discovers errors or rewards. Trial and error search and delayed reward are the most relevant characteristics of reinforcement learning. This method allows machines and software agents to automatically determine the ideal behavior within a specific context in order to maximize its performance. Simple reward feedback is required for the agent to learn which action is best; this is known as the reinforcement signal.
+Machine learning enables analysis of massive quantities of data. While it generally delivers faster, more accurate results in order to identify profitable opportunities or dangerous risks, it may also require additional time and resources to train it properly. Combining machine learning with AI and cognitive technologies can make it even more effective in processing large volumes of information. Because of new computing technologies, machine learning today is not like machine learning of the past. It was born from pattern recognition and the theory that computers can learn without being programmed to perform specific tasks; researchers interested in artificial intelligence wanted to see if computers could learn from data. The iterative aspect of machine learning is important because as models are exposed to new data, they are able to independently adapt. They learn from previous computations to produce reliable, repeatable decisions and results. It’s a science that’s not new – but one that has gained fresh momentum.
+While many machine learning algorithms have been around for a long time, the ability to automatically apply complex mathematical calculations to big data – over and over, faster and faster – is a recent development. Here are a few widely publicized examples of machine learning applications you may be familiar with:
+
+The heavily hyped, self-driving Google car? The essence of machine learning.
+Online recommendation offers such as those from Amazon and Netflix? Machine learning applications for everyday life.
+Knowing what customers are saying about you on Twitter? Machine learning combined with linguistic rule creation.
+Fraud detection? One of the more obvious, important uses in our world today.
+ Resurging interest in machine learning is due to the same factors that have made data mining and Bayesian analysis more popular than ever. Things like growing volumes and varieties of available data, computational processing that is cheaper and more powerful, and affordable data storage.
+
+All of these things mean it's possible to quickly and automatically produce models that can analyze bigger, more complex data and deliver faster, more accurate results – even on a very large scale. And by building precise models, an organization has a better chance of identifying profitable opportunities – or avoiding unknown risks.
+
+Supervised learning algorithms are trained using labeled examples, such as an input where the desired output is known. For example, a piece of equipment could have data points labeled either “F” (failed) or “R” (runs). The learning algorithm receives a set of inputs along with the corresponding correct outputs, and the algorithm learns by comparing its actual output with correct outputs to find errors. It then modifies the model accordingly. Through methods like classification, regression, prediction and gradient boosting, supervised learning uses patterns to predict the values of the label on additional unlabeled data. Supervised learning is commonly used in applications where historical data predicts likely future events. For example, it can anticipate when credit card transactions are likely to be fraudulent or which insurance customer is likely to file a claim.
+Semisupervised learning is used for the same applications as supervised learning. But it uses both labeled and unlabeled data for training – typically a small amount of labeled data with a large amount of unlabeled data (because unlabeled data is less expensive and takes less effort to acquire). This type of learning can be used with methods such as classification, regression and prediction. Semisupervised learning is useful when the cost associated with labeling is too high to allow for a fully labeled training process. Early examples of this include identifying a person's face on a web cam.
+Unsupervised learning is used against data that has no historical labels. The system is not told the "right answer." The algorithm must figure out what is being shown. The goal is to explore the data and find some structure within. Unsupervised learning works well on transactional data. For example, it can identify segments of customers with similar attributes who can then be treated similarly in marketing campaigns. Or it can find the main attributes that separate customer segments from each other. Popular techniques include self-organizing maps, nearest-neighbor mapping, k-means clustering and singular value decomposition. These algorithms are also used to segment text topics, recommend items and identify data outliers.
+
+
+Reinforcement learning is often used for robotics, gaming and navigation. With reinforcement learning, the algorithm discovers through trial and error which actions yield the greatest rewards. This type of learning has three primary components: the agent (the learner or decision maker), the environment (everything the agent interacts with) and actions (what the agent can do). The objective is for the agent to choose actions that maximize the expected reward over a given amount of time. The agent will reach the goal much faster by following a good policy. So the goal in reinforcement learning is to learn the best policy.
+
+The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
+By allowing digital information to be distributed but not copied, blockchain technology created the backbone of a new type of internet. Originally devised for the digital currency, Bitcoin, (Buy Bitcoin) the tech community has now found other potential uses for the technology.
+
+In this guide, we are going to explain to you what the blockchain technology is, and what its properties are what make it so unique. So, we hope you enjoy this, What Is Blockchain Guide. And if you already know what blockchain is and want to become a blockchain developer please check out our in-depth blockchain tutorial and create your very first blockchain.
+The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value.” – Don & Alex Tapscott, authors Blockchain Revolution (2016).
+
+A blockchain is, in the simplest of terms, a time-stamped series of immutable records of data that is managed by a cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) is secured and bound to each other using cryptographic principles (i.e. chain).
+
+So, what is so special about it and why are we saying that it has industry-disrupting capabilities?
+
+The blockchain network has no central authority — it is the very definition of a democratized system. Since it is a shared and immutable ledger, the information in it is open for anyone and everyone to see. Hence, anything that is built on the blockchain is by its very nature transparent and everyone involved is accountable for their actions.
+A blockchain carries no transaction cost. (An infrastructure cost yes, but no transaction cost.) The blockchain is a simple yet ingenious way of passing information from A to B in a fully automated and safe manner. One party to a transaction initiates the process by creating a block. This block is verified by thousands, perhaps millions of computers distributed around the net. The verified block is added to a chain, which is stored across the net, creating not just a unique record, but a unique record with a unique history. Falsifying a single record would mean falsifying the entire chain in millions of instances. That is virtually impossible. Bitcoin uses this model for monetary transactions, but it can be deployed in many other ways.
+
+Think of a railway company. We buy tickets on an app or the web. The credit card company takes a cut for processing the transaction. With blockchain, not only can the railway operator save on credit card processing fees, it can move the entire ticketing process to the blockchain. The two parties in the transaction are the railway company and the passenger. The ticket is a block, which will be added to a ticket blockchain. Just as a monetary transaction on the blockchain is a unique, independently verifiable and unfalsifiable record (like Bitcoin), so can your ticket be. Incidentally, the final ticket blockchain is also a record of all transactions for, say, a certain train route, or even the entire train network, comprising every ticket ever sold, every journey ever taken.
+
+But the key here is this: it’s free. Not only can the blockchain transfer and store money, but it can also replace all processes and business models that rely on charging a small fee for a transaction. Or any other transaction between two parties.
+
+Here is another example. The gig economy hub Fivver charges 0.5 dollars on a 5 transaction between individuals buying and selling services. Using blockchain technology the transaction is free. Ergo, Fivver will cease to exist. So will auction houses and any other business entity based on the market-maker principle.
+
+Even recent entrants like Uber and Airbnb are threatened by blockchain technology. All you need to do is encode the transactional information for a car ride or an overnight stay, and again you have a perfectly safe way that disrupts the business model of the companies which have just begun to challenge the traditional economy. We are not just cutting out the fee-processing middle man, we are also eliminating the need for the match-making platform.
+
+Because blockchain transactions are free, you can charge minuscule amounts, say 1/100 of a cent for a video view or article read. Why should I pay The Economist or National Geographic an annual subscription fee if I can pay per article on Facebook or my favorite chat app? Again, remember that blockchain transactions carry no transaction cost. You can charge for anything in any amount without worrying about third parties cutting into your profits.
+
+Blockchain may make selling recorded music profitable again for artists by cutting out music companies and distributors like Apple or Spotify. The music you buy could even be encoded in the blockchain itself, making it a cloud archive for any song purchased. Because the amounts charged can be so small, subscription and streaming services will become irrelevant.
+
+It goes further. Ebooks could be fitted with blockchain code. Instead of Amazon taking a cut, and the credit card company earning money on the sale, the books would circulate in encoded form and a successful blockchain transaction would transfer money to the author and unlock the book. Transfer ALL the money to the author, not just meager royalties. You could do this on a book review website like Goodreads, or on your own website. The marketplace Amazon is then unnecessary. Successful iterations could even include reviews and other third-party information about the book.
+
+In the financial world the applications are more obvious and the revolutionary changes more imminent. Blockchains will change the way stock exchanges work, loans are bundled, and insurances contracted. They will eliminate bank accounts and practically all services offered by banks. Almost every financial institution will go bankrupt or be forced to change fundamentally, once the advantages of a safe ledger without transaction fees are widely understood and implemented. After all, the financial system is built on taking a small cut of your money for the privilege of facilitating a transaction. Bankers will become mere advisers, not gatekeepers of money. Stockbrokers will no longer be able to earn commissions and the buy/sell spread will disappear.
+
+How Does Blockchain Work?
+Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.
+
+Information held on a blockchain exists as a shared — and continually reconciled — database. This is a way of using the network that has obvious benefits. The blockchain database isn’t stored in any single location, meaning the records it keeps are truly public and easily verifiable. No centralized version of this information exists for a hacker to corrupt. Hosted by millions of computers simultaneously, its data is accessible to anyone on the internet.
+
+To go in deeper with the Google spreadsheet analogy, I would like you to read this piece from a blockchain specialist.
+
+“The traditional way of sharing documents with collaboration is to send a Microsoft Word document to another recipient and ask them to make revisions to it. The problem with that scenario is that you need to wait until receiving a return copy before you can see or make other changes because you are locked out of editing it until the other person is done with it. That’s how databases work today. Two owners can’t be messing with the same record at once. That’s how banks maintain money balances and transfers; they briefly lock access (or decrease the balance) while they make a transfer, then update the other side, then re-open access (or update again). With Google Docs (or Google Sheets), both parties have access to the same document at the same time, and the single version of that document is always visible to both of them. It is like a shared ledger, but it is a shared document. The distributed part comes into play when sharing involves a number of people.
+
+Imagine the number of legal documents that should be used that way. Instead of passing them to each other, losing track of versions, and not being in sync with the other version, why can’t *all* business documents become shared instead of transferred back and forth? So many types of legal contracts would be ideal for that kind of workflow. You don’t need a blockchain to share documents, but the shared documents analogy is a powerful one.” – William Mougayar, Venture advisor, 4x entrepreneur, marketer, strategist, and blockchain specialist
+
+The reason why the blockchain has gained so much admiration is that:
+
+It is not owned by a single entity, hence it is decentralized
+The data is cryptographically stored inside
+The blockchain is immutable, so no one can tamper with the data that is inside the blockchain
+The blockchain is transparent so one can track the data if they want to
+
+The Three Pillars of Blockchain Technology
+The three main properties of Blockchain Technology which have helped it gain widespread acclaim are as follows:
+
+Decentralization
+Transparency
+Immutability
+Decentralization
+
+Before Bitcoin and BitTorrent came along, we were more used to centralized services. The idea is very simple. You have a centralized entity that stored all the data and you’d have to interact solely with this entity to get whatever information you required.
+
+Another example of a centralized system is the banks. They store all your money, and the only way that you can pay someone is by going through the bank.
+
+The traditional client-server model is a perfect example of this
+When you google search for something, you send a query to the server who then gets back at you with the relevant information. That is a simple client-server.
+
+Now, centralized systems have treated us well for many years, however, they have several vulnerabilities.
+
+Firstly, because they are centralized, all the data is stored in one spot. This makes them easy target spots for potential hackers.
+If the centralized system were to go through a software upgrade, it would halt the entire system
+What if the centralized entity somehow shuts down for whatever reason? That way nobody will be able to access the information that it possesses
+Worst case scenario, what if this entity gets corrupted and malicious? If that happens then all the data that is inside the blockchain will be compromised.
+So, what happens if we just take this centralized entity away?
+
+In a decentralized system, the information is not stored by one single entity. In fact, everyone in the network owns the information.
+
+In a decentralized network, if you wanted to interact with your friend then you can do so directly without going through a third party. That was the main ideology behind Bitcoins. You and only you alone are in charge of your money. You can send your money to anyone you want without having to go through a bank. One of the most interesting and misunderstood concepts in blockchain technology is “transparency.” Some people say that blockchain gives you privacy while some say that it is transparent. Why do you think that happens?
+
+Well… a person’s identity is hidden via complex cryptography and represented only by their public address. So, if you were to look up a person’s transaction history, you will not see “Bob sent 1 BTC” instead you will see.
+
+The following snapshot of Ethereum transactions will show you what So, while the person’s real identity is secure, you will still see all the transactions that were done by their public address. This level of transparency has never existed before within a financial system. It adds that extra, and much needed, level of accountability which is required by some of these biggest institutions.
+
+Speaking purely from the point of view of cryptocurrency, if you know the public address of one of these big companies, you can simply pop it in an explorer and look at all the transactions that they have engaged in. This forces them to be honest, something that they have never had to deal with before.
+
+However, that’s not the best use-case. We are pretty sure that most of these companies won’t transact using cryptocurrencies, and even if they do, they won’t do ALL their transactions using cryptocurrencies. However, what if the blockchain technology was integrated…say in their supply chain?
+
+You can see why something like this can be very helpful for the finance industry right? Immutability, in the context of the blockchain, means that once something has been entered into the blockchain, it cannot be tampered with.
+
+Can you imagine how valuable this will be for financial institutes?
+
+Imagine how many embezzlement cases can be nipped in the bud if people know that they can’t “work the books” and fiddle around with company accounts.
+
+The reason why the blockchain gets this property is that of the cryptographic hash function.
+
+In simple terms, hashing means taking an input string of any length and giving out an output of a fixed length. In the context of cryptocurrencies like bitcoin, the transactions are taken as input and run through a hashing algorithm (Bitcoin uses SHA-256) which gives an output of a fixed length.
+
+Let’s see how the hashing process works. We are going to put in certain inputs. For this exercise, we are going to use the SHA-256 As you can see, in the case of SHA-256, no matter how big or small your input is, the output will always have a fixed 256-bits length. This becomes critical when you are dealing with a huge amount of data and transactions. So basically, instead of remembering the input data which could be huge, you can just remember the hash and keep track.
+
+A cryptographic hash function is a special class of hash functions that has various properties making it ideal for cryptography. There are certain properties that a cryptographic hash function needs to have in order to be considered secure. You can read about those in detail in our guide on hashing.
+
+There is just one property that we want you to focus on today. It is called the “Avalanche Effect.”
+
+What does that mean?
+
+Even if you make a small change in your input, the changes that will be reflected in the hash will be huge. Let’s test it out using SHA-256 Do you see that? Even though you just changed the case of the first alphabet of the input, look at how much that has affected the output hash. Now, let’s go back to our previous point when we were looking at blockchain architecture. What we said was:
+
+The blockchain is a linked list that contains data and a hash pointer that points to its previous block, hence creating the chain. What is a hash pointer? A hash pointer is similar to a pointer, but instead of just containing the address of the previous block it also contains the hash of the data inside the previous block.
+
+This one small tweak is what makes blockchains so amazingly reliable and trailblazing.
+
+Imagine this for a second, a hacker attacks block 3 and tries to change the data. Because of the properties of hash functions, a slight change in data will change the hash drastically. This means that any slight changes made in block 3, will change the hash which is stored in block 2, now that in turn will change the data and the hash of block 2 which will result in changes in block 1 and so on and so forth. This will completely change the chain, which is impossible. This is exactly how blockchains attain immutability. The blockchain is maintained by a peer-to-peer network. The network is a collection of nodes that are interconnected to one another. Nodes are individual computers that take in input and performs a function on them and gives an output. The blockchain uses a special kind of network called “peer-to-peer network” which partitions its entire workload between participants, who are all equally privileged, called “peers”. There is no longer one central server, now there are several distributed and decentralized peers One of the main uses of the peer-to-peer network is file sharing, also called torrenting. If you are to use a client-server model for downloading, then it is usually extremely slow and entirely dependent on the health of the server. Plus, as we said, it is prone to censorship.
+
+However, in a peer-to-peer system, there is no central authority, and hence if even one of the peers in the network goes out of the race, you still have more peers to download from. Plus, it is not subject to the idealistic standards of a central system, hence it is not prone to censorship. The peer-to-peer network structure in cryptocurrencies is structured according to the consensus mechanism that they are utilizing. For cryptos like Bitcoin and Ethereum which uses a normal proof-of-work consensus mechanism (Ethereum will eventually move on to Proof of Stake), all the nodes have the same privilege. The idea is to create an egalitarian network. The nodes are not given any special privileges, however, their functions and degree of participation may differ. There is no centralized server/entity, nor is there any hierarchy. It is a flat topology.
+
+These decentralized cryptocurrencies are structured like that is because of a simple reason, to stay true to their philosophy. The idea is to have a currency system, where everyone is treated as an equal and there is no governing body, which can determine the value of the currency based on a whim. This is true for both bitcoin and Ethereum.
+
+Now, if there is no central system, how would everyone in the system get to know that a certain transaction has happened? The network follows the gossip protocol. Think of how gossip spreads. Suppose Alice sent 3 ETH to Bob. The nodes nearest to her will get to know of this, and then they will tell the nodes closest to them, and then they will tell their neighbors, and this will keep on spreading out until everyone knows. Nodes are basically your nosy, annoying relatives. So, what is a node in the context of Ethereum? A node is simply a computer that participates in the Ethereum network. This participation can be in three ways
+
+By keeping a shallow-copy of the blockchain aka a Light Client
+By keeping a full copy of the blockchain aka a Full Node
+By verifying the transactions aka Mining
+ 
+
+However, the problem with this design is that it is not really that scalable. Which is why a lot of new generation cryptocurrencies adopt a leader-based consensus mechanism. In EOS, Cardano, Neo, etc. the nodes elect leader nodes or “supernodes” who are in charge of the consensus and overall network health. These cryptos are a lot faster but they are not the most decentralized of systems.
+
+So, in a way, cryptos have to make the trade-off between speed and decentralization. As a web infrastructure, you don’t need to know about the blockchain for it to be useful in your life.
+
+Currently, finance offers the strongest use cases for the technology. International remittances, for instance. The World Bank estimates that over $430 billion US in money transfers were sent in 2015. And at the moment there is a high demand for blockchain developers.
+
+The blockchain potentially cuts out the middleman for these types of transactions. Personal computing became accessible to the general public with the invention of the Graphical User Interface (GUI), which took the form of a “desktop”. Similarly, the most common GUI devised for the blockchain are the so-called “wallet” applications, which people use to buy things with Bitcoin, and store it along with other cryptocurrencies.
+
+Transactions online are closely connected to the processes of identity verification. It is easy to imagine that wallet apps will transform in the coming years to include other types of identity management.
+Two more Vs have emerged over the past few years: value and veracity.
+
+Data has intrinsic value. But it’s of no use until that value is discovered. Equally important: How truthful is your data—and how much can you rely on it?
+
+Today, big data has become capital. Think of some of the world’s biggest tech companies. A large part of the value they offer comes from their data, which they’re constantly analyzing to produce more efficiency and develop new products.
+
+Recent technological breakthroughs have exponentially reduced the cost of data storage and compute, making it easier and less expensive to store more data than ever before. With an increased volume of big data now cheaper and more accessible, you can make more accurate and precise business decisions.
+
+Finding value in big data isn’t only about analyzing it (which is a whole other benefit). It’s an entire discovery process that requires insightful analysts, business users, and executives who ask the right questions, recognize patterns, make informed assumptions, and predict behavior.
+
+But how did we get here?
+Although the concept of big data itself is relatively new, the origins of large data sets go back to the 1960s and '70s when the world of data was just getting started with the first data centers and the development of the relational database.
+
+Around 2005, people began to realize just how much data users generated through Facebook, YouTube, and other online services. Hadoop (an open-source framework created specifically to store and analyze big data sets) was developed that same year. NoSQL also began to gain popularity during this time.
+
+The development of open-source frameworks, such as Hadoop (and more recently, Spark) was essential for the growth of big data because they make big data easier to work with and cheaper to store. In the years since then, the volume of big data has skyrocketed. Users are still generating huge amounts of data—but it’s not just humans who are doing it.
+
+With the advent of the Internet of Things (IoT), more objects and devices are connected to the internet, gathering data on customer usage patterns and product performance. The emergence of machine learning has produced still more data.
+
+While big data has come far, its usefulness is only just beginning. Cloud computing has expanded big data possibilities even further. The cloud offers truly elastic scalability, where developers can simply spin up ad hoc clusters to test a subset of data.
+Big data gives you new insights that open up new opportunities and business models. Getting started involves three key actions:
+
+Integrate Big data brings together data from many disparate sources and applications. Traditional data integration mechanisms, such as ETL (extract, transform, and load) generally aren’t up to the task. It requires new strategies and technologies to analyze big data sets at terabyte, or even petabyte, scale.
+
+During integration, you need to bring in the data, process it, and make sure it’s formatted and available in a form that your business analysts can get started with Big data requires storage. Your storage solution can be in the cloud, on premises, or both. You can store your data in any form you want and bring your desired processing requirements and necessary process engines to those data sets on an on-demand basis. Many people choose their storage solution according to where their data is currently residing. The cloud is gradually gaining popularity because it supports your current compute requirements and enables you to spin up resources as needed. Analyze
+Your investment in big data pays off when you analyze and act on your data. Get new clarity with a visual analysis of your varied data sets. Explore the data further to make new discoveries. Share your findings with others. Build data models with machine learning and artificial intelligence. Put your data to work.
+
+Blockchain and Big Data are two technologies in full swing, but they are also two complementary technologies. Learn how the blockchain transforms storage and data analysis.
+
+In recent years, the blockchain is at the heart of computer technologies. It is a cryptographically secure distributed database technology for storing and transmitting information. Each record in the database is called a block and contains details such as the transaction date and a link to the previous block.
+
+The main advantage of the blockchain is that it is decentralized. In fact, no one controls the data entered or their integrity. However, these checks are carried out continuously by the various computers on the network. These different machines hold the same information. In fact, corrupted data on one computer cannot enter the chain because it will not match the equivalent data held by the other machines. To put it simply, as long as the network exists, the information remains in the same state.
+
+Thanks to cryptocurrency such as Bitcoin, Ethereum, the blockchain can actually support any type of digitized information. This is why it is possible to use it in the field of Big Data, especially to increase the security or the quality of the data.
+
+For example, a hospital can use it to ensure that patient data is kept safe, up-to-date and that its quality is fully preserved. By placing health databases on the Blockchain, the hospital ensures that all its employees will have access to a single, unchangeable source of data.
+Indeed, poor data management in the health care environment carries a risk that the patient may be mishandled, misdiagnosed, or the results of their tests may be lost or corrupted. Similarly, two physicians who support the same patient may have access to two different sets of data. The Blockchain eliminates this risk.
+Big data is a combination of structured, semistructured and unstructured data collected by organizations that can be mined for information and used in machine learning projects, predictive modeling and other advanced analytics applications.
+
+Big data is often characterized by the 3Vs: the large volume of data in many environments, the wide variety of data types stored in big data systems and the velocity at which the data is generated, collected and processed. These characteristics were first identified by Doug Laney, then an analyst at Meta Group Inc., in a report published in 2001; Gartner further popularized them after it acquired Meta Group in 2005. More recently, several other Vs have been added to different descriptions of big data, including veracity, value and variability.
+
+Although big data doesn't equate to any specific volume of data, big data deployments often involve terabytes (TB), petabytes (PB) and even exabytes (EB) of data captured over time.
+
+Importance of big data
+Companies use the big data accumulated in their systems to improve operations, provide better customer service, create personalized marketing campaigns based on specific customer preferences and, ultimately, increase profitability. Businesses that utilize big data hold a potential competitive advantage over those that don't since they're able to make faster and more informed business decisions, provided they use the data effectively.
+
+For example, big data can provide companies with valuable insights into their customers that can be used to refine marketing campaigns and techniques in order to increase customer engagement and conversion rates.
+
+Furthermore, utilizing big data enables companies to become increasingly customer-centric. Historical and real-time data can be used to assess the evolving preferences of consumers, consequently enabling businesses to update and improve their marketing strategies and become more responsive to customer desires and needs.
+
+Big data is also used by medical researchers to identify disease risk factors and by doctors to help diagnose illnesses and conditions in individual patients. In addition, data derived from electronic health records (EHRs), social media, the web and other sources provides healthcare organizations and government agencies with up-to-the-minute information on infectious disease threats or outbreaks.
+
+In the energy industry, big data helps oil and gas companies identify potential drilling locations and monitor pipeline operations; likewise, utilities use it to track electrical grids. Financial services firms use big data systems for risk management and real-time analysis of market data. Manufacturers and transportation companies rely on big data to manage their supply chains and optimize delivery routes. Other government uses include emergency response, crime prevention and smart city initiatives.
+
+Examples of big data
+Big data comes from myriad different sources, such as business transaction systems, customer databases, medical records, internet clickstream logs, mobile applications, social networks, scientific research repositories, machine-generated data and real-time data sensors used in internet of things (IoT) environments. The data may be left in its raw form in big data systems or preprocessed using data mining tools or data preparation software so it's ready for particular analytics uses.
+
+Using customer data as an example, the different branches of analytics that can be done with the information found in sets of big data include the following:
+
+Comparative analysis. This includes the examination of user behavior metrics and the observation of real-time customer engagement in order to compare one company's products, services and brand authority with those of its competition.
+Social media listening. This is information about what people are saying on social media about a specific business or product that goes beyond what can be delivered in a poll or survey. This data can be used to help identify target audiences for marketing campaigns by observing the activity surrounding specific topics across various sources.
+Marketing analysis. This includes information that can be used to make the promotion of new products, services and initiatives more informed and innovative.
+Customer satisfaction and sentiment analysis. All of the information gathered can reveal how customers are feeling about a company or brand, if any potential issues may arise, how brand loyalty might be preserved and how customer service efforts might be improved.
+Breaking down the Vs of big data
+Volume is the most commonly cited characteristic of big data. A big data environment doesn't have to contain a large amount of data, but most do because of the nature of the data being collected and stored in them. Clickstreams, system logs and stream processing systems are among the sources that typically produce massive volumes of big data on an ongoing basis
+All of the various data types can be stored together in a data lake, which typically is based on Hadoop or a cloud object storage service. In addition, big data applications often include multiple data sources that may not otherwise be integrated. For example, a big data analytics project may attempt to gauge a product's success and future sales by correlating past sales data, return data and online buyer review data for that product.
+
+Velocity refers to the speed at which big data is generated and must be processed and analyzed. In many cases, sets of big data are updated on a real- or near-real-time basis, instead of the daily, weekly or monthly updates made in many traditional data warehouses. Big data analytics applications ingest, correlate and analyze the incoming data and then render an answer or result based on an overarching query. This means data scientists and other data analysts must have a detailed understanding of the available data and possess some sense of what answers they're looking for to make sure the information they get is valid and up to date.
+
+Managing data velocity is also important as big data analysis expands into fields like machine learning and artificial intelligence (AI), where analytical processes automatically find patterns in the collected data and use them to generate insights.
+
+More characteristics of big data
+Looking beyond the original 3Vs, data veracity refers to the degree of certainty in data sets. Uncertain raw data collected from multiple sources -- such as social media platforms and webpages -- can cause serious data quality issues that may be difficult to pinpoint. For example, a company that collects sets of big data from hundreds of sources may be able to identify inaccurate data, but its analysts need data lineage information to trace where the data is stored so they can correct the issues.
+
+
+Watch how big data is being used today and how it
+will impact jobs and markets in years to come.
+Bad data leads to inaccurate analysis and may undermine the value of business analytics because it can cause executives to mistrust data as a whole. The amount of uncertain data in an organization must be accounted for before it is used in big data analytics applications. IT and analytics teams also need to ensure that they have enough accurate data available to produce valid results.
+
+Some data scientists also add value to the list of characteristics of big data. As explained above, not all data collected has real business value, and the use of inaccurate data can weaken the insights provided by analytics applications. It's critical that organizations employ practices such as data cleansing and confirm that data relates to relevant business issues before they use it in a big data analytics project.
+
+Variability also often applies to sets of big data, which are less consistent than conventional transaction data and may have multiple meanings or be formatted in different ways from one data source to another -- factors that further complicate efforts to process and analyze the data. Some people ascribe even more Vs to big data; data scientists and consultants have created various lists with between seven and 10 Vs.
+
+How big data is stored and processed
+The need to handle big data velocity imposes unique demands on the underlying compute infrastructure. The computing power required to quickly process huge volumes and varieties of data can overwhelm a single server or server cluster. Organizations must apply adequate processing capacity to big data tasks in order to achieve the required velocity. This can potentially demand hundreds or thousands of servers that can distribute the processing work and operate collaboratively in a clustered architecture, often based on technologies like Hadoop and Apache Spark.
+
+Achieving such velocity in a cost-effective manner is also a challenge. Many enterprise leaders are reticent to invest in an extensive server and storage infrastructure to support big data workloads, particularly ones that don't run 24/7. As a result, public cloud computing is now a primary vehicle for hosting big data systems. A public cloud provider can store petabytes of data and scale up the required number of servers just long enough to complete a big data analytics project. The business only pays for the storage and compute time actually used, and the cloud instances can be turned off until they're needed again.
+
+To improve service levels even further, public cloud providers offer big data capabilities through managed services that include the following:
+
+Amazon EMR (formerly Elastic MapReduce)
+Microsoft Azure HDInsight
+Google Cloud Dataproc
+In cloud environments, big data can be stored in the following:
+
+Hadoop Distributed File System (HDFS);
+lower-cost cloud object storage, such as Amazon Simple Storage Service (S3);
+NoSQL databases; and
+relational databases.
+For organizations that want to deploy on-premises big data systems, commonly used Apache open source technologies in addition to Hadoop and Spark include the following:
+
+YARN, Hadoop's built-in resource manager and job scheduler, which stands for Yet Another Resource Negotiator but is commonly known by the acronym alone;
+the MapReduce programming framework, also a core component of Hadoop;
+Kafka, an application-to-application messaging and data streaming platform;
+the HBase database; and
+SQL-on-Hadoop query engines, like Drill, Hive, Impala and Presto.
+Users can install the open source versions of the technologies themselves or turn to commercial big data platforms offered by Cloudera, which merged with former rival Hortonworks in January 2019, or Hewlett Packard Enterprise (HPE), which bought the assets of big data vendor MapR Technologies in August 2019. The Cloudera and MapR platforms are also supported in the cloud.
+
+Big data challenges
+Besides the processing capacity and cost issues, designing a big data architecture is another common challenge for users. Big data systems must be tailored to an organization's particular needs, a DIY undertaking that requires IT teams and application developers to piece together a set of tools from all the available technologies. Deploying and managing big data systems also require new skills compared to the ones possessed by database administrators (DBAs) and developers focused on relational software.
+
+Both of those issues can be eased by using a managed cloud service, but IT managers need to keep a close eye on cloud usage to make sure costs don't get out of hand. Also, migrating on-premises data sets and processing workloads to the cloud is often a complex process for organizations.
+
+Making the data in big data systems accessible to data scientists and other analysts is also a challenge, especially in distributed environments that include a mix of different platforms and data stores. To help analysts find relevant data, IT and analytics teams are increasingly working to build data catalogs that incorporate metadata management and data lineage functions. Data quality and data governance also need to be priorities to ensure that sets of big data are clean, consistent and used properly.
+
+Big data collection practices and regulations
+For many years, companies had few restrictions on the data they collected from their customers. However, as the collection and use of big data have increased, so has data misuse. Concerned citizens who have experienced the mishandling of their personal data or have been victims of a data breach are calling for laws around data collection transparency and consumer data privacy.
+
+The outcry about personal privacy violations led the European Union to pass the General Data Protection Regulation (GDPR), which took effect in May 2018; it limits the types of data that organizations can collect and requires opt-in consent from individuals or compliance with other specified lawful grounds for collecting personal data. GDPR also includes a right-to-be-forgotten provision, which lets EU residents ask companies to delete their data.
+
+While there aren't similar federal laws in the U.S., the California Consumer Privacy Act (CCPA) aims to give California residents more control over the collection and use of their personal information by companies. CCPA was signed into law in 2018 and is scheduled to take effect on Jan. 1, 2020. In addition,  government officials in the U.S. are investigating data handling practices, specifically among companies that collect consumer data and sell it to other companies for unknown use.
+
+The human side of big data analytics
+Ultimately, the value and effectiveness of big data depend on the workers tasked with understanding the data and formulating the proper queries to direct big data analytics projects. Some big data tools meet specialized niches and enable less technical users to use everyday business data in predictive analytics applications. Other technologies -- such as Hadoop-based big data appliances -- help businesses implement a suitable compute infrastructure to tackle big data projects, while minimizing the need for hardware and distributed software know-how.
+
+Big data can be contrasted with small data, another evolving term that's often used to describe data whose volume and format can be easily used for self-service analytics. A commonly quoted axiom is that "big data is for machines; small data is for people.

@@ -1,0 +1,70 @@
+Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example. Deep learning is a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost. It is the key to voice control in consumer devices like phones, tablets, TVs, and hands-free speakers. Deep learning is getting lots of attention lately and for good reason. It’s achieving results that were not possible before.
+
+In deep learning, a computer model learns to perform classification tasks directly from images, text, or sound. Deep learning models can achieve state-of-the-art accuracy, sometimes exceeding human-level performance. Models are trained by using a large set of labeled data and neural network architectures that contain many layers. In a word, accuracy. Deep learning achieves recognition accuracy at higher levels than ever before. This helps consumer electronics meet user expectations, and it is crucial for safety-critical applications like driverless cars. Recent advances in deep learning have improved to the point where deep learning outperforms humans in some tasks like classifying objects in images.
+
+While deep learning was first theorized in the 1980s, there are two main reasons it has only recently become useful:
+
+Deep learning requires large amounts of labeled data. For example, driverless car development requires millions of images and thousands of hours of video.
+Deep learning requires substantial computing power. High-performance GPUs have a parallel architecture that is efficient for deep learning. When combined with clusters or cloud computing, this enables development teams to reduce training time for a deep learning network from weeks to hours or less.
+Deep learning applications are used in industries from automated driving to medical devices.
+
+Automated Driving: Automotive researchers are using deep learning to automatically detect objects such as stop signs and traffic lights. In addition, deep learning is used to detect pedestrians, which helps decrease accidents.
+
+Aerospace and Defense: Deep learning is used to identify objects from satellites that locate areas of interest, and identify safe or unsafe zones for troops.
+
+Medical Research: Cancer researchers are using deep learning to automatically detect cancer cells. Teams at UCLA built an advanced microscope that yields a high-dimensional data set used to train a deep learning application to accurately identify cancer cells.
+
+Industrial Automation: Deep learning is helping to improve worker safety around heavy machinery by automatically detecting when people or objects are within an unsafe distance of machines.
+
+Electronics: Deep learning is being used in automated hearing and speech translation. For example, home assistance devices that respond to your voice and know your preferences are powered by deep learning applications.
+Most deep learning methods use neural network architectures, which is why deep learning models are often referred to as deep neural networks.
+
+The term deep usually refers to the number of hidden layers in the neural network. Traditional neural networks only contain 2-3 hidden layers, while deep networks can have as many as 150.
+
+Deep learning models are trained by using large sets of labeled data and neural network architectures that learn features directly from the data without the need for manual feature extraction.
+One of the most popular types of deep neural networks is known as convolutional neural networks (CNN or ConvNet). A CNN convolves learned features with input data, and uses 2D convolutional layers, making this architecture well suited to processing 2D data, such as images.
+
+CNNs eliminate the need for manual feature extraction, so you do not need to identify features used to classify images. The CNN works by extracting features directly from images. The relevant features are not pretrained; they are learned while the network trains on a collection of images. This automated feature extraction makes deep learning models highly accurate for computer vision tasks such as object classification.
+
+CNNs learn to detect different features of an image using tens or hundreds of hidden layers. Every hidden layer increases the complexity of the learned image features. For example, the first hidden layer could learn how to detect edges, and the last learns how to detect more complex shapes specifically catered to the shape of the object we are trying to recognize.
+Deep learning is a specialized form of machine learning. A machine learning workflow starts with relevant features being manually extracted from images. The features are then used to create a model that categorizes the objects in the image. With a deep learning workflow, relevant features are automatically extracted from images. In addition, deep learning performs “end-to-end learning” – where a network is given raw data and a task to perform, such as classification, and it learns how to do this automatically.
+
+Another key difference is deep learning algorithms scale with data, whereas shallow learning converges. Shallow learning refers to machine learning methods that plateau at a certain level of performance when you add more examples and training data to the network.
+
+A key advantage of deep learning networks is that they often continue to improve as the size of your data increases.
+Machine learning offers a variety of techniques and models you can choose based on your application, the size of data you're processing, and the type of problem you want to solve. A successful deep learning application requires a very large amount of data (thousands of images) to train the model, as well as GPUs, or graphics processing units, to rapidly process your data.
+
+When choosing between machine learning and deep learning, consider whether you have a high-performance GPU and lots of labeled data. If you don’t have either of those things, it may make more sense to use machine learning instead of deep learning. Deep learning is generally more complex, so you’ll need at least a few thousand images to get reliable results. Having a high-performance GPU means the model will take less time to analyze all those images
+Most deep learning applications use the transfer learning approach, a process that involves fine-tuning a pretrained model. You start with an existing network, such as AlexNet or GoogLeNet, and feed in new data containing previously unknown classes. After making some tweaks to the network, you can now perform a new task, such as categorizing only dogs or cats instead of 1000 different objects. This also has the advantage of needing much less data (processing thousands of images, rather than millions), so computation time drops to minutes or hours.
+
+Transfer learning requires an interface to the internals of the pre-existing network, so it can be surgically modified and enhanced for the new task. MATLAB® has tools and functions designed to help you do transfer learning.
+
+Deep learning is the term given to machine learning architectures that join many multilayer perceptrons together, so that there isn’t just one hidden layer but many hidden layers. The “deeper” that the deep neural network is, the more sophisticated patterns the network can learn.
+
+The deep layer networks comprised of neurons are sometimes referred to as fully connected networks or fully connected layers, referencing the fact that a given neuron maintains a connection to all the neurons surrounding it. Fully connected networks can be combined with other machine learning functions to create different deep learning architectures.
+Convolutional Neural Networks
+
+Convolutional neural networks, or CNNs, are the neural network architecture commonly used in the creation of computer vision systems. The structure of convolutional neural networks enables them to interpret image data, converting them into numbers that a fully connected network can interpret. A CNN has four major components:
+
+Convolutional layers
+Subsampling/pooling layers
+Activation functions
+Fully connected layers
+The convolutional layers are what takes in the images as inputs into the network, analyzing the images and getting the values of the pixels. Subsampling or pooling is where the image values are converted/reduced to simplify the representation of the images and reduce the sensitivity of the image filters to noise. The activation functions control how the data flows from one layer to the next layer, and the fully connected layers are what analyze the values that represent the image and learn the patterns held in those values.
+Recurrent neural networks, or RNNs, are popular for tasks where the order of the data matters, where the network must learn about a sequence of data. RNNs are commonly applied to problems like natural language processing, as the order of words matters when decoding the meaning of a sentence.  The “recurrent” part of the term Recurrent Neural Network comes from the fact that the output for a given element in a sequence in dependant on the previous computation as well as the current computation. Unlike other forms of deep neural networks, RNNs have “memories”, and the information calculated at the different time steps in the sequence is used to calculate the final values.
+
+There are multiple types of RNNs, including bidirectional RNNs, which take future items in the sequence into account, in addition to the previous items, when calculating an item’s value. Another type of RNN is a Long Short-Term Memory, or LSTM, network. LSTMs are types of RNN that can handle long chains of data. Regular RNNs may fall victim to something called the “exploding gradient problem”. This issue occurs when the chain of input data becomes extremely long, but LSTMs have techniques to combat this problem.
+
+Most of the deep learning architectures mentioned so far are applied to supervised learning problems, rather than unsupervised learning tasks. Autoencoders are able to transform unsupervised data into a supervised format, allowing neural networks to be used on the problem.
+
+Autoencoders are frequently used to detect anomalies in datasets, an example of unsupervised learning as the nature of the anomaly isn’t known. Such examples of anomaly detection include fraud detection for financial institutions. In this context, the purpose of an autoencoder is to determine a baseline of regular patterns in the data and identify anomalies or outliers.
+
+The structure of an autoencoder is often symmetrical, with hidden layers arrayed such that the output of the network resembles the input. The four types of autoencoders that see frequent use are:
+
+Regular/plain autoencoders
+Multilayer encoders
+Convolutional encoders
+Regularized encoders
+Regular/plain autoencoders are just neural nets with a single hidden layer, while multilayer autoencoders are deep networks with more than one hidden layer. Convolutional autoencoders use convolutional layers instead of, or in addition to, fully-connected layers. Regularized autoencoders use a specific kind of loss function that lets the neural network carry out more complex functions, functions other than just copying inputs to outputs.
+
+Generative Adversarial Networks (GANs) are actually multiple deep neural networks instead of just one network. Two deep learning models are trained at the same time, and their outputs are fed to the other network. The networks are in competition with each other, and since they get access to each other’s output data, they both learn from this data and improve. The two networks are essentially playing a game of counterfeit and detection, where the generative model tries to create new instances that will fool the detective model/the discriminator. GANs have become popular in the field of computer vision. Deep learning extends the principles of neural networks to create sophisticated models that can learn complex patterns and generalize those patterns to future datasets. Convolutional neural networks are used to interpret images, while RNNs/LSTMs are used to interpret sequential data. Autoencoders can transform unsupervised learning tasks into supervised learning tasks. Finally, GANs are multiple networks pitted against each other that are especially useful for computer vision tasks.

@@ -1,0 +1,126 @@
+Two more Vs have emerged over the past few years: value and veracity.
+
+Data has intrinsic value. But it’s of no use until that value is discovered. Equally important: How truthful is your data—and how much can you rely on it?
+
+Today, big data has become capital. Think of some of the world’s biggest tech companies. A large part of the value they offer comes from their data, which they’re constantly analyzing to produce more efficiency and develop new products.
+
+Recent technological breakthroughs have exponentially reduced the cost of data storage and compute, making it easier and less expensive to store more data than ever before. With an increased volume of big data now cheaper and more accessible, you can make more accurate and precise business decisions.
+
+Finding value in big data isn’t only about analyzing it (which is a whole other benefit). It’s an entire discovery process that requires insightful analysts, business users, and executives who ask the right questions, recognize patterns, make informed assumptions, and predict behavior.
+
+But how did we get here?
+Although the concept of big data itself is relatively new, the origins of large data sets go back to the 1960s and '70s when the world of data was just getting started with the first data centers and the development of the relational database.
+
+Around 2005, people began to realize just how much data users generated through Facebook, YouTube, and other online services. Hadoop (an open-source framework created specifically to store and analyze big data sets) was developed that same year. NoSQL also began to gain popularity during this time.
+
+The development of open-source frameworks, such as Hadoop (and more recently, Spark) was essential for the growth of big data because they make big data easier to work with and cheaper to store. In the years since then, the volume of big data has skyrocketed. Users are still generating huge amounts of data—but it’s not just humans who are doing it.
+
+With the advent of the Internet of Things (IoT), more objects and devices are connected to the internet, gathering data on customer usage patterns and product performance. The emergence of machine learning has produced still more data.
+
+While big data has come far, its usefulness is only just beginning. Cloud computing has expanded big data possibilities even further. The cloud offers truly elastic scalability, where developers can simply spin up ad hoc clusters to test a subset of data.
+Big data gives you new insights that open up new opportunities and business models. Getting started involves three key actions:
+
+Integrate Big data brings together data from many disparate sources and applications. Traditional data integration mechanisms, such as ETL (extract, transform, and load) generally aren’t up to the task. It requires new strategies and technologies to analyze big data sets at terabyte, or even petabyte, scale.
+
+During integration, you need to bring in the data, process it, and make sure it’s formatted and available in a form that your business analysts can get started with Big data requires storage. Your storage solution can be in the cloud, on premises, or both. You can store your data in any form you want and bring your desired processing requirements and necessary process engines to those data sets on an on-demand basis. Many people choose their storage solution according to where their data is currently residing. The cloud is gradually gaining popularity because it supports your current compute requirements and enables you to spin up resources as needed. Analyze
+Your investment in big data pays off when you analyze and act on your data. Get new clarity with a visual analysis of your varied data sets. Explore the data further to make new discoveries. Share your findings with others. Build data models with machine learning and artificial intelligence. Put your data to work.
+
+Blockchain and Big Data are two technologies in full swing, but they are also two complementary technologies. Learn how the blockchain transforms storage and data analysis.
+
+In recent years, the blockchain is at the heart of computer technologies. It is a cryptographically secure distributed database technology for storing and transmitting information. Each record in the database is called a block and contains details such as the transaction date and a link to the previous block.
+
+The main advantage of the blockchain is that it is decentralized. In fact, no one controls the data entered or their integrity. However, these checks are carried out continuously by the various computers on the network. These different machines hold the same information. In fact, corrupted data on one computer cannot enter the chain because it will not match the equivalent data held by the other machines. To put it simply, as long as the network exists, the information remains in the same state.
+
+Thanks to cryptocurrency such as Bitcoin, Ethereum, the blockchain can actually support any type of digitized information. This is why it is possible to use it in the field of Big Data, especially to increase the security or the quality of the data.
+
+For example, a hospital can use it to ensure that patient data is kept safe, up-to-date and that its quality is fully preserved. By placing health databases on the Blockchain, the hospital ensures that all its employees will have access to a single, unchangeable source of data.
+Indeed, poor data management in the health care environment carries a risk that the patient may be mishandled, misdiagnosed, or the results of their tests may be lost or corrupted. Similarly, two physicians who support the same patient may have access to two different sets of data. The Blockchain eliminates this risk.
+Big data is a combination of structured, semistructured and unstructured data collected by organizations that can be mined for information and used in machine learning projects, predictive modeling and other advanced analytics applications.
+
+Big data is often characterized by the 3Vs: the large volume of data in many environments, the wide variety of data types stored in big data systems and the velocity at which the data is generated, collected and processed. These characteristics were first identified by Doug Laney, then an analyst at Meta Group Inc., in a report published in 2001; Gartner further popularized them after it acquired Meta Group in 2005. More recently, several other Vs have been added to different descriptions of big data, including veracity, value and variability.
+
+Although big data doesn't equate to any specific volume of data, big data deployments often involve terabytes (TB), petabytes (PB) and even exabytes (EB) of data captured over time.
+
+Importance of big data
+Companies use the big data accumulated in their systems to improve operations, provide better customer service, create personalized marketing campaigns based on specific customer preferences and, ultimately, increase profitability. Businesses that utilize big data hold a potential competitive advantage over those that don't since they're able to make faster and more informed business decisions, provided they use the data effectively.
+
+For example, big data can provide companies with valuable insights into their customers that can be used to refine marketing campaigns and techniques in order to increase customer engagement and conversion rates.
+
+Furthermore, utilizing big data enables companies to become increasingly customer-centric. Historical and real-time data can be used to assess the evolving preferences of consumers, consequently enabling businesses to update and improve their marketing strategies and become more responsive to customer desires and needs.
+
+Big data is also used by medical researchers to identify disease risk factors and by doctors to help diagnose illnesses and conditions in individual patients. In addition, data derived from electronic health records (EHRs), social media, the web and other sources provides healthcare organizations and government agencies with up-to-the-minute information on infectious disease threats or outbreaks.
+
+In the energy industry, big data helps oil and gas companies identify potential drilling locations and monitor pipeline operations; likewise, utilities use it to track electrical grids. Financial services firms use big data systems for risk management and real-time analysis of market data. Manufacturers and transportation companies rely on big data to manage their supply chains and optimize delivery routes. Other government uses include emergency response, crime prevention and smart city initiatives.
+
+Examples of big data
+Big data comes from myriad different sources, such as business transaction systems, customer databases, medical records, internet clickstream logs, mobile applications, social networks, scientific research repositories, machine-generated data and real-time data sensors used in internet of things (IoT) environments. The data may be left in its raw form in big data systems or preprocessed using data mining tools or data preparation software so it's ready for particular analytics uses.
+
+Using customer data as an example, the different branches of analytics that can be done with the information found in sets of big data include the following:
+
+Comparative analysis. This includes the examination of user behavior metrics and the observation of real-time customer engagement in order to compare one company's products, services and brand authority with those of its competition.
+Social media listening. This is information about what people are saying on social media about a specific business or product that goes beyond what can be delivered in a poll or survey. This data can be used to help identify target audiences for marketing campaigns by observing the activity surrounding specific topics across various sources.
+Marketing analysis. This includes information that can be used to make the promotion of new products, services and initiatives more informed and innovative.
+Customer satisfaction and sentiment analysis. All of the information gathered can reveal how customers are feeling about a company or brand, if any potential issues may arise, how brand loyalty might be preserved and how customer service efforts might be improved.
+Breaking down the Vs of big data
+Volume is the most commonly cited characteristic of big data. A big data environment doesn't have to contain a large amount of data, but most do because of the nature of the data being collected and stored in them. Clickstreams, system logs and stream processing systems are among the sources that typically produce massive volumes of big data on an ongoing basis
+All of the various data types can be stored together in a data lake, which typically is based on Hadoop or a cloud object storage service. In addition, big data applications often include multiple data sources that may not otherwise be integrated. For example, a big data analytics project may attempt to gauge a product's success and future sales by correlating past sales data, return data and online buyer review data for that product.
+
+Velocity refers to the speed at which big data is generated and must be processed and analyzed. In many cases, sets of big data are updated on a real- or near-real-time basis, instead of the daily, weekly or monthly updates made in many traditional data warehouses. Big data analytics applications ingest, correlate and analyze the incoming data and then render an answer or result based on an overarching query. This means data scientists and other data analysts must have a detailed understanding of the available data and possess some sense of what answers they're looking for to make sure the information they get is valid and up to date.
+
+Managing data velocity is also important as big data analysis expands into fields like machine learning and artificial intelligence (AI), where analytical processes automatically find patterns in the collected data and use them to generate insights.
+
+More characteristics of big data
+Looking beyond the original 3Vs, data veracity refers to the degree of certainty in data sets. Uncertain raw data collected from multiple sources -- such as social media platforms and webpages -- can cause serious data quality issues that may be difficult to pinpoint. For example, a company that collects sets of big data from hundreds of sources may be able to identify inaccurate data, but its analysts need data lineage information to trace where the data is stored so they can correct the issues.
+
+
+Watch how big data is being used today and how it
+will impact jobs and markets in years to come.
+Bad data leads to inaccurate analysis and may undermine the value of business analytics because it can cause executives to mistrust data as a whole. The amount of uncertain data in an organization must be accounted for before it is used in big data analytics applications. IT and analytics teams also need to ensure that they have enough accurate data available to produce valid results.
+
+Some data scientists also add value to the list of characteristics of big data. As explained above, not all data collected has real business value, and the use of inaccurate data can weaken the insights provided by analytics applications. It's critical that organizations employ practices such as data cleansing and confirm that data relates to relevant business issues before they use it in a big data analytics project.
+
+Variability also often applies to sets of big data, which are less consistent than conventional transaction data and may have multiple meanings or be formatted in different ways from one data source to another -- factors that further complicate efforts to process and analyze the data. Some people ascribe even more Vs to big data; data scientists and consultants have created various lists with between seven and 10 Vs.
+
+How big data is stored and processed
+The need to handle big data velocity imposes unique demands on the underlying compute infrastructure. The computing power required to quickly process huge volumes and varieties of data can overwhelm a single server or server cluster. Organizations must apply adequate processing capacity to big data tasks in order to achieve the required velocity. This can potentially demand hundreds or thousands of servers that can distribute the processing work and operate collaboratively in a clustered architecture, often based on technologies like Hadoop and Apache Spark.
+
+Achieving such velocity in a cost-effective manner is also a challenge. Many enterprise leaders are reticent to invest in an extensive server and storage infrastructure to support big data workloads, particularly ones that don't run 24/7. As a result, public cloud computing is now a primary vehicle for hosting big data systems. A public cloud provider can store petabytes of data and scale up the required number of servers just long enough to complete a big data analytics project. The business only pays for the storage and compute time actually used, and the cloud instances can be turned off until they're needed again.
+
+To improve service levels even further, public cloud providers offer big data capabilities through managed services that include the following:
+
+Amazon EMR (formerly Elastic MapReduce)
+Microsoft Azure HDInsight
+Google Cloud Dataproc
+In cloud environments, big data can be stored in the following:
+
+Hadoop Distributed File System (HDFS);
+lower-cost cloud object storage, such as Amazon Simple Storage Service (S3);
+NoSQL databases; and
+relational databases.
+For organizations that want to deploy on-premises big data systems, commonly used Apache open source technologies in addition to Hadoop and Spark include the following:
+
+YARN, Hadoop's built-in resource manager and job scheduler, which stands for Yet Another Resource Negotiator but is commonly known by the acronym alone;
+the MapReduce programming framework, also a core component of Hadoop;
+Kafka, an application-to-application messaging and data streaming platform;
+the HBase database; and
+SQL-on-Hadoop query engines, like Drill, Hive, Impala and Presto.
+Users can install the open source versions of the technologies themselves or turn to commercial big data platforms offered by Cloudera, which merged with former rival Hortonworks in January 2019, or Hewlett Packard Enterprise (HPE), which bought the assets of big data vendor MapR Technologies in August 2019. The Cloudera and MapR platforms are also supported in the cloud.
+
+Big data challenges
+Besides the processing capacity and cost issues, designing a big data architecture is another common challenge for users. Big data systems must be tailored to an organization's particular needs, a DIY undertaking that requires IT teams and application developers to piece together a set of tools from all the available technologies. Deploying and managing big data systems also require new skills compared to the ones possessed by database administrators (DBAs) and developers focused on relational software.
+
+Both of those issues can be eased by using a managed cloud service, but IT managers need to keep a close eye on cloud usage to make sure costs don't get out of hand. Also, migrating on-premises data sets and processing workloads to the cloud is often a complex process for organizations.
+
+Making the data in big data systems accessible to data scientists and other analysts is also a challenge, especially in distributed environments that include a mix of different platforms and data stores. To help analysts find relevant data, IT and analytics teams are increasingly working to build data catalogs that incorporate metadata management and data lineage functions. Data quality and data governance also need to be priorities to ensure that sets of big data are clean, consistent and used properly.
+
+Big data collection practices and regulations
+For many years, companies had few restrictions on the data they collected from their customers. However, as the collection and use of big data have increased, so has data misuse. Concerned citizens who have experienced the mishandling of their personal data or have been victims of a data breach are calling for laws around data collection transparency and consumer data privacy.
+
+The outcry about personal privacy violations led the European Union to pass the General Data Protection Regulation (GDPR), which took effect in May 2018; it limits the types of data that organizations can collect and requires opt-in consent from individuals or compliance with other specified lawful grounds for collecting personal data. GDPR also includes a right-to-be-forgotten provision, which lets EU residents ask companies to delete their data.
+
+While there aren't similar federal laws in the U.S., the California Consumer Privacy Act (CCPA) aims to give California residents more control over the collection and use of their personal information by companies. CCPA was signed into law in 2018 and is scheduled to take effect on Jan. 1, 2020. In addition,  government officials in the U.S. are investigating data handling practices, specifically among companies that collect consumer data and sell it to other companies for unknown use.
+
+The human side of big data analytics
+Ultimately, the value and effectiveness of big data depend on the workers tasked with understanding the data and formulating the proper queries to direct big data analytics projects. Some big data tools meet specialized niches and enable less technical users to use everyday business data in predictive analytics applications. Other technologies -- such as Hadoop-based big data appliances -- help businesses implement a suitable compute infrastructure to tackle big data projects, while minimizing the need for hardware and distributed software know-how.
+
+Big data can be contrasted with small data, another evolving term that's often used to describe data whose volume and format can be easily used for self-service analytics. A commonly quoted axiom is that "big data is for machines; small data is for people.

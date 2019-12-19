@@ -1,0 +1,5 @@
+The word is used as output key and is the intermediate value. Following a Hadoop convention, the tabulation character is used to separate the key from the value.
+
+As in the initial script, taking the lower-case version of each word avoids counting the same word as different words when it appears with different combination of upper- and lower-case characters in the parsed text.
+
+Assuming that the mapping script is saved in a file named mapper.py, the script can be launched using the following command line

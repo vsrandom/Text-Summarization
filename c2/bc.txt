@@ -1,0 +1,129 @@
+
+The blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
+By allowing digital information to be distributed but not copied, blockchain technology created the backbone of a new type of internet. Originally devised for the digital currency, Bitcoin, (Buy Bitcoin) the tech community has now found other potential uses for the technology.
+
+In this guide, we are going to explain to you what the blockchain technology is, and what its properties are what make it so unique. So, we hope you enjoy this, What Is Blockchain Guide. And if you already know what blockchain is and want to become a blockchain developer please check out our in-depth blockchain tutorial and create your very first blockchain.
+The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value.” – Don & Alex Tapscott, authors Blockchain Revolution (2016).
+
+A blockchain is, in the simplest of terms, a time-stamped series of immutable records of data that is managed by a cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) is secured and bound to each other using cryptographic principles (i.e. chain).
+
+So, what is so special about it and why are we saying that it has industry-disrupting capabilities?
+
+The blockchain network has no central authority — it is the very definition of a democratized system. Since it is a shared and immutable ledger, the information in it is open for anyone and everyone to see. Hence, anything that is built on the blockchain is by its very nature transparent and everyone involved is accountable for their actions.
+A blockchain carries no transaction cost. (An infrastructure cost yes, but no transaction cost.) The blockchain is a simple yet ingenious way of passing information from A to B in a fully automated and safe manner. One party to a transaction initiates the process by creating a block. This block is verified by thousands, perhaps millions of computers distributed around the net. The verified block is added to a chain, which is stored across the net, creating not just a unique record, but a unique record with a unique history. Falsifying a single record would mean falsifying the entire chain in millions of instances. That is virtually impossible. Bitcoin uses this model for monetary transactions, but it can be deployed in many other ways.
+
+Think of a railway company. We buy tickets on an app or the web. The credit card company takes a cut for processing the transaction. With blockchain, not only can the railway operator save on credit card processing fees, it can move the entire ticketing process to the blockchain. The two parties in the transaction are the railway company and the passenger. The ticket is a block, which will be added to a ticket blockchain. Just as a monetary transaction on the blockchain is a unique, independently verifiable and unfalsifiable record (like Bitcoin), so can your ticket be. Incidentally, the final ticket blockchain is also a record of all transactions for, say, a certain train route, or even the entire train network, comprising every ticket ever sold, every journey ever taken.
+
+But the key here is this: it’s free. Not only can the blockchain transfer and store money, but it can also replace all processes and business models that rely on charging a small fee for a transaction. Or any other transaction between two parties.
+
+Here is another example. The gig economy hub Fivver charges 0.5 dollars on a 5 transaction between individuals buying and selling services. Using blockchain technology the transaction is free. Ergo, Fivver will cease to exist. So will auction houses and any other business entity based on the market-maker principle.
+
+Even recent entrants like Uber and Airbnb are threatened by blockchain technology. All you need to do is encode the transactional information for a car ride or an overnight stay, and again you have a perfectly safe way that disrupts the business model of the companies which have just begun to challenge the traditional economy. We are not just cutting out the fee-processing middle man, we are also eliminating the need for the match-making platform.
+
+Because blockchain transactions are free, you can charge minuscule amounts, say 1/100 of a cent for a video view or article read. Why should I pay The Economist or National Geographic an annual subscription fee if I can pay per article on Facebook or my favorite chat app? Again, remember that blockchain transactions carry no transaction cost. You can charge for anything in any amount without worrying about third parties cutting into your profits.
+
+Blockchain may make selling recorded music profitable again for artists by cutting out music companies and distributors like Apple or Spotify. The music you buy could even be encoded in the blockchain itself, making it a cloud archive for any song purchased. Because the amounts charged can be so small, subscription and streaming services will become irrelevant.
+
+It goes further. Ebooks could be fitted with blockchain code. Instead of Amazon taking a cut, and the credit card company earning money on the sale, the books would circulate in encoded form and a successful blockchain transaction would transfer money to the author and unlock the book. Transfer ALL the money to the author, not just meager royalties. You could do this on a book review website like Goodreads, or on your own website. The marketplace Amazon is then unnecessary. Successful iterations could even include reviews and other third-party information about the book.
+
+In the financial world the applications are more obvious and the revolutionary changes more imminent. Blockchains will change the way stock exchanges work, loans are bundled, and insurances contracted. They will eliminate bank accounts and practically all services offered by banks. Almost every financial institution will go bankrupt or be forced to change fundamentally, once the advantages of a safe ledger without transaction fees are widely understood and implemented. After all, the financial system is built on taking a small cut of your money for the privilege of facilitating a transaction. Bankers will become mere advisers, not gatekeepers of money. Stockbrokers will no longer be able to earn commissions and the buy/sell spread will disappear.
+
+How Does Blockchain Work?
+Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.
+
+Information held on a blockchain exists as a shared — and continually reconciled — database. This is a way of using the network that has obvious benefits. The blockchain database isn’t stored in any single location, meaning the records it keeps are truly public and easily verifiable. No centralized version of this information exists for a hacker to corrupt. Hosted by millions of computers simultaneously, its data is accessible to anyone on the internet.
+
+To go in deeper with the Google spreadsheet analogy, I would like you to read this piece from a blockchain specialist.
+
+“The traditional way of sharing documents with collaboration is to send a Microsoft Word document to another recipient and ask them to make revisions to it. The problem with that scenario is that you need to wait until receiving a return copy before you can see or make other changes because you are locked out of editing it until the other person is done with it. That’s how databases work today. Two owners can’t be messing with the same record at once. That’s how banks maintain money balances and transfers; they briefly lock access (or decrease the balance) while they make a transfer, then update the other side, then re-open access (or update again). With Google Docs (or Google Sheets), both parties have access to the same document at the same time, and the single version of that document is always visible to both of them. It is like a shared ledger, but it is a shared document. The distributed part comes into play when sharing involves a number of people.
+
+Imagine the number of legal documents that should be used that way. Instead of passing them to each other, losing track of versions, and not being in sync with the other version, why can’t *all* business documents become shared instead of transferred back and forth? So many types of legal contracts would be ideal for that kind of workflow. You don’t need a blockchain to share documents, but the shared documents analogy is a powerful one.” – William Mougayar, Venture advisor, 4x entrepreneur, marketer, strategist, and blockchain specialist
+
+The reason why the blockchain has gained so much admiration is that:
+
+It is not owned by a single entity, hence it is decentralized
+The data is cryptographically stored inside
+The blockchain is immutable, so no one can tamper with the data that is inside the blockchain
+The blockchain is transparent so one can track the data if they want to
+
+The Three Pillars of Blockchain Technology
+The three main properties of Blockchain Technology which have helped it gain widespread acclaim are as follows:
+
+Decentralization
+Transparency
+Immutability
+Decentralization
+
+Before Bitcoin and BitTorrent came along, we were more used to centralized services. The idea is very simple. You have a centralized entity that stored all the data and you’d have to interact solely with this entity to get whatever information you required.
+
+Another example of a centralized system is the banks. They store all your money, and the only way that you can pay someone is by going through the bank.
+
+The traditional client-server model is a perfect example of this
+When you google search for something, you send a query to the server who then gets back at you with the relevant information. That is a simple client-server.
+
+Now, centralized systems have treated us well for many years, however, they have several vulnerabilities.
+
+Firstly, because they are centralized, all the data is stored in one spot. This makes them easy target spots for potential hackers.
+If the centralized system were to go through a software upgrade, it would halt the entire system
+What if the centralized entity somehow shuts down for whatever reason? That way nobody will be able to access the information that it possesses
+Worst case scenario, what if this entity gets corrupted and malicious? If that happens then all the data that is inside the blockchain will be compromised.
+So, what happens if we just take this centralized entity away?
+
+In a decentralized system, the information is not stored by one single entity. In fact, everyone in the network owns the information.
+
+In a decentralized network, if you wanted to interact with your friend then you can do so directly without going through a third party. That was the main ideology behind Bitcoins. You and only you alone are in charge of your money. You can send your money to anyone you want without having to go through a bank. One of the most interesting and misunderstood concepts in blockchain technology is “transparency.” Some people say that blockchain gives you privacy while some say that it is transparent. Why do you think that happens?
+
+Well… a person’s identity is hidden via complex cryptography and represented only by their public address. So, if you were to look up a person’s transaction history, you will not see “Bob sent 1 BTC” instead you will see.
+
+The following snapshot of Ethereum transactions will show you what So, while the person’s real identity is secure, you will still see all the transactions that were done by their public address. This level of transparency has never existed before within a financial system. It adds that extra, and much needed, level of accountability which is required by some of these biggest institutions.
+
+Speaking purely from the point of view of cryptocurrency, if you know the public address of one of these big companies, you can simply pop it in an explorer and look at all the transactions that they have engaged in. This forces them to be honest, something that they have never had to deal with before.
+
+However, that’s not the best use-case. We are pretty sure that most of these companies won’t transact using cryptocurrencies, and even if they do, they won’t do ALL their transactions using cryptocurrencies. However, what if the blockchain technology was integrated…say in their supply chain?
+
+You can see why something like this can be very helpful for the finance industry right? Immutability, in the context of the blockchain, means that once something has been entered into the blockchain, it cannot be tampered with.
+
+Can you imagine how valuable this will be for financial institutes?
+
+Imagine how many embezzlement cases can be nipped in the bud if people know that they can’t “work the books” and fiddle around with company accounts.
+
+The reason why the blockchain gets this property is that of the cryptographic hash function.
+
+In simple terms, hashing means taking an input string of any length and giving out an output of a fixed length. In the context of cryptocurrencies like bitcoin, the transactions are taken as input and run through a hashing algorithm (Bitcoin uses SHA-256) which gives an output of a fixed length.
+
+Let’s see how the hashing process works. We are going to put in certain inputs. For this exercise, we are going to use the SHA-256 As you can see, in the case of SHA-256, no matter how big or small your input is, the output will always have a fixed 256-bits length. This becomes critical when you are dealing with a huge amount of data and transactions. So basically, instead of remembering the input data which could be huge, you can just remember the hash and keep track.
+
+A cryptographic hash function is a special class of hash functions that has various properties making it ideal for cryptography. There are certain properties that a cryptographic hash function needs to have in order to be considered secure. You can read about those in detail in our guide on hashing.
+
+There is just one property that we want you to focus on today. It is called the “Avalanche Effect.”
+
+What does that mean?
+
+Even if you make a small change in your input, the changes that will be reflected in the hash will be huge. Let’s test it out using SHA-256 Do you see that? Even though you just changed the case of the first alphabet of the input, look at how much that has affected the output hash. Now, let’s go back to our previous point when we were looking at blockchain architecture. What we said was:
+
+The blockchain is a linked list that contains data and a hash pointer that points to its previous block, hence creating the chain. What is a hash pointer? A hash pointer is similar to a pointer, but instead of just containing the address of the previous block it also contains the hash of the data inside the previous block.
+
+This one small tweak is what makes blockchains so amazingly reliable and trailblazing.
+
+Imagine this for a second, a hacker attacks block 3 and tries to change the data. Because of the properties of hash functions, a slight change in data will change the hash drastically. This means that any slight changes made in block 3, will change the hash which is stored in block 2, now that in turn will change the data and the hash of block 2 which will result in changes in block 1 and so on and so forth. This will completely change the chain, which is impossible. This is exactly how blockchains attain immutability. The blockchain is maintained by a peer-to-peer network. The network is a collection of nodes that are interconnected to one another. Nodes are individual computers that take in input and performs a function on them and gives an output. The blockchain uses a special kind of network called “peer-to-peer network” which partitions its entire workload between participants, who are all equally privileged, called “peers”. There is no longer one central server, now there are several distributed and decentralized peers One of the main uses of the peer-to-peer network is file sharing, also called torrenting. If you are to use a client-server model for downloading, then it is usually extremely slow and entirely dependent on the health of the server. Plus, as we said, it is prone to censorship.
+
+However, in a peer-to-peer system, there is no central authority, and hence if even one of the peers in the network goes out of the race, you still have more peers to download from. Plus, it is not subject to the idealistic standards of a central system, hence it is not prone to censorship. The peer-to-peer network structure in cryptocurrencies is structured according to the consensus mechanism that they are utilizing. For cryptos like Bitcoin and Ethereum which uses a normal proof-of-work consensus mechanism (Ethereum will eventually move on to Proof of Stake), all the nodes have the same privilege. The idea is to create an egalitarian network. The nodes are not given any special privileges, however, their functions and degree of participation may differ. There is no centralized server/entity, nor is there any hierarchy. It is a flat topology.
+
+These decentralized cryptocurrencies are structured like that is because of a simple reason, to stay true to their philosophy. The idea is to have a currency system, where everyone is treated as an equal and there is no governing body, which can determine the value of the currency based on a whim. This is true for both bitcoin and Ethereum.
+
+Now, if there is no central system, how would everyone in the system get to know that a certain transaction has happened? The network follows the gossip protocol. Think of how gossip spreads. Suppose Alice sent 3 ETH to Bob. The nodes nearest to her will get to know of this, and then they will tell the nodes closest to them, and then they will tell their neighbors, and this will keep on spreading out until everyone knows. Nodes are basically your nosy, annoying relatives. So, what is a node in the context of Ethereum? A node is simply a computer that participates in the Ethereum network. This participation can be in three ways
+
+By keeping a shallow-copy of the blockchain aka a Light Client
+By keeping a full copy of the blockchain aka a Full Node
+By verifying the transactions aka Mining
+ 
+
+However, the problem with this design is that it is not really that scalable. Which is why a lot of new generation cryptocurrencies adopt a leader-based consensus mechanism. In EOS, Cardano, Neo, etc. the nodes elect leader nodes or “supernodes” who are in charge of the consensus and overall network health. These cryptos are a lot faster but they are not the most decentralized of systems.
+
+So, in a way, cryptos have to make the trade-off between speed and decentralization. As a web infrastructure, you don’t need to know about the blockchain for it to be useful in your life.
+
+Currently, finance offers the strongest use cases for the technology. International remittances, for instance. The World Bank estimates that over $430 billion US in money transfers were sent in 2015. And at the moment there is a high demand for blockchain developers.
+
+The blockchain potentially cuts out the middleman for these types of transactions. Personal computing became accessible to the general public with the invention of the Graphical User Interface (GUI), which took the form of a “desktop”. Similarly, the most common GUI devised for the blockchain are the so-called “wallet” applications, which people use to buy things with Bitcoin, and store it along with other cryptocurrencies.
+
+Transactions online are closely connected to the processes of identity verification. It is easy to imagine that wallet apps will transform in the coming years to include other types of identity management.
